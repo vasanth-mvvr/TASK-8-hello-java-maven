@@ -33,6 +33,9 @@ fi
 # java installation
 yum install fontconfig java-21-openjdk -y
 validate $? "Installing java"
+# maven installation
+sudo yum install -y maven
+validate $? "Installing maven"
 
 dnf -y install dnf-plugins-core
 validate $? "Adding plugins installation"
