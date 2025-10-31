@@ -1,5 +1,5 @@
-class HelloWorld{
-    public static void main(string[] args){
-        system.out.println("Hello, Jenkins and Maven!");
+public class HelloWorld{
+    public static void main(String[] args){
+        Sysem.out.println("Hello, Jenkins and Maven!");
     }
 }
